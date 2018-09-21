@@ -21,6 +21,9 @@ def UpdateAllInFrame(numberOfTimesButtonPressedFunction, buttonWidget, entryWidg
 if __name__ == '__main__':
     numberOfTimesButtonLeftPressed = [0]
     numberOfTimesButtonRightPressed = [0]
+    # Nødvendigt at erklære de 2 variabler herover som lister med ét element i hver, da vi skal
+    # kunne ændre værdien af variablerne i funktionen UpdateAllInFrame og beholde ændringerne
+    # tilbage i vores main program her.
 
     root = Tk()
 
